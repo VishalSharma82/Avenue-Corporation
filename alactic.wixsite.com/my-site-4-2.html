@@ -639,7 +639,7 @@
         #masterPage.mesh-layout #masterPageinlineContent,
         #masterPage.mesh-layout:not(.one-doc) #SITE_FOOTER,
         #masterPage.mesh-layout:not(.one-doc) #SITE_HEADER {
-            position: relative
+            position: relative;
         }
 
         #masterPage.mesh-layout.remove-wrappers #SITE_HEADER {
@@ -5741,10 +5741,6 @@
             --top-offset: 0px;
         }
 
-        #SITE_HEADER{
-            position: fixed;
-            top: 0;
-        }
         #SITE_HEADER {
             --bg: var(--color_42);
             --shd: none;
@@ -5864,6 +5860,8 @@
             --stroke: #5E97FF;
             --stroke-opacity: 1;
             --fill: #1E2D3B;
+            position: fixed;
+            top:0;
         }
 
         #comp-ifwlqiny {
@@ -9034,7 +9032,7 @@
             <div id="site-root" class="site-root">
                 <div id="masterPage" class="mesh-layout remove-wrappers masterPage css-editing-scope">
                     <div id="pinnedTopLeft" class="pinnedTopLeft">
-                        <div id="comp-ihdmixj9-pinned-layer" class="comp-ihdmixj9-pinned-layer big2ZD">
+                        <div id="comp-ihdmixj9-pinned-layer" class="comp-ihdmixj9-pinned-layer big2ZD" style="margin:0;">
                             <div id="comp-ihdmixj9" class="KaEeLN comp-ihdmixj9">
                                 <div class="uYj0Sg wixui-box" data-testid="container-bg"></div>
                                 <div data-mesh-id="comp-ihdmixj9inlineContent" data-testid="inline-content" class="">
@@ -9060,7 +9058,7 @@
                                             class="HcOXKn c9GqVL QxJLC3 lq2cno comp-ifwlqiny wixui-rich-text"
                                             data-testid="richTextElement">
                                             <p class="font_5 wixui-rich-text__text"
-                                                style="line-height:1em; font-size:23px;"><span
+                                                style="line-height:1em; font-size:23px;" ><span
                                                     style="letter-spacing:0.05em;" class="wixui-rich-text__text"><a
                                                         href="my-site-4-2.html" target="_self"
                                                         class="wixui-rich-text__text">Avenue&nbsp;</a></span></p>
@@ -9077,7 +9075,7 @@
                         </div>
                     </div>
                     <div id="pinnedTopRight" class="pinnedTopRight">
-                        <div id="comp-l5taubfo-pinned-layer" class="comp-l5taubfo-pinned-layer big2ZD">
+                        <div id="comp-l5taubfo-pinned-layer" class="comp-l5taubfo-pinned-layer big2ZD" style="margin-top:">
                             <div id="comp-l5taubfo" class="comp-l5taubfo NZHLsZ">
                                 <nav tabindex="-1"
                                     class="StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-l95owr2x__root wixui-horizontal-menu"
@@ -9132,7 +9130,7 @@
                         <div class="_C0cVf">
                             <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
                         </div>
-                        <div class="U4Bvut">
+                        <div class="U4Bvut" style="position: fixed; top:0;">
                             <div class="G5K6X8">
                                 <div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div>
                             </div>
